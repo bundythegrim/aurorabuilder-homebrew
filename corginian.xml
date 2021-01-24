@@ -66,7 +66,7 @@
     </rules>
   </element>
 
-  <element name="Nimble" type="Racial Trait" source="Homebrew" id="ID_ID_HOMEBREW_RACIAL_TRAIT_NIMBLE">
+  <element name="Nimble" type="Racial Trait" source="Homebrew" id="ID_HOMEBREW_RACIAL_TRAIT_NIMBLE">
     <description>
       <p>You can move through the space of any creature that is of a size larger than yours.</p>
     </description>
@@ -84,7 +84,7 @@
     </sheet>
   </element>
 
-  <element name="Strong Jaws" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_STRONG_JAWS">
+  <element name="Strong Jaws" type="Racial Trait" source="Homebrew" id="ID_HOMEBREW_RACIAL_TRAIT_STRONG_JAWS">
     <description>
       <p>Your jaws are natural weapons, which you can use to make unarmed strikes. If you attack with them, you deal piercing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
     </description>
