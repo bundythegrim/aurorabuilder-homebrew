@@ -6,7 +6,7 @@
 		</update>
 	</info>
 	
-	<element name="Artificer New" type="Class" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_ARTIFICER">
+	<element name="Artificer New" type="Class" source="Homebrew" id="ID_WOTC_ERLW_CLASS_ARTIFICER">
 		<description>
 			<p>Masters of unlocking magic in everyday objects, artificers are supreme inventors. They see magic as a complex system waiting to be decoded and controlled. Artificers use tools to channel arcane power, crafting magical objects. To cast a spell, an artificer could use alchemist’s supplies to create a potent elixir, calligrapher’s supplies to inscribe a sigil of power on an ally’s armor, or tinker’s tools to craft a temporary charm. The magic of artificers is tied to their tools and their talents.</p>
 			<h4>ARCANE SCIENCE</h4>
