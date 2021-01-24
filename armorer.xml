@@ -54,41 +54,13 @@
       <h5 class="caption">ARMORER SPELLS</h5>
       <table>
         <thead>
-          <tr>
-            <td>Artificer Level</td>
-            <td>Spells</td>
-          </tr>
+          <tr><td>Artificer Level</td><td>Spells</td></tr>
         </thead>
-        <tr>
-          <td>3rd</td>
-          <td>
-            <em>magic missile, thunderwave</em>
-          </td>
-        </tr>
-        <tr>
-          <td>5th</td>
-          <td>
-            <em>mirror image, shatter</em>
-          </td>
-        </tr>
-        <tr>
-          <td>9th</td>
-          <td>
-            <em>hypnotic pattern, lightning bolt</em>
-          </td>
-        </tr>
-        <tr>
-          <td>13th</td>
-          <td>
-            <em>fire shield, greater invisibility</em>
-          </td>
-        </tr>
-        <tr>
-          <td>17th</td>
-          <td>
-            <em>passwall, wall of force</em>
-          </td>
-        </tr>
+        <tr><td>3rd</td><td><em>magic missile, thunderwave</em></td></tr>
+        <tr><td>5th</td><td><em>mirror image, shatter</em></td></tr>
+        <tr><td>9th</td><td><em>hypnotic pattern, lightning bolt</em></td></tr>
+        <tr><td>13th</td><td><em>fire shield, greater invisibility</em></td></tr>
+        <tr><td>17th</td><td><em>passwall, wall of force</em></td></tr>
       </table>
     </description>
     <sheet display="false">
