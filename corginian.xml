@@ -3,7 +3,7 @@
   <info>
     <name>Corginian</name>
     <update version="1.0.0">
-			<file name="race-corginian.xml" url="https://github.com/bundythegrim/aurorabuilder-homebrew/blob/b0c0b167dfba5cb2ca9229507d5e215810017b15/corginian.xml" />
+			<file name="race-corginian.xml" url="https://github.com/bundythegrim/aurorabuilder-homebrew/blob/main/corginian.xml" />
 		</update>
     <description></description>
   </info>
