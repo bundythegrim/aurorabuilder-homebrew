@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+  <element name="Corginian" type="Race" source="Homebrew" id="ID_HOMEBREW_RACE_CORGINIAN">
+    <description>
+      <p class="flavor">"We Corginians are a proud people, and we hate being picked up." - King of the Corginians</p>
+      <h4>SOCIETY</h4>
+      <p>Corginia is a city of corgi people who live among the ruins of a civilisation long gone. The city’s buildings and structures are sparse among a vast plane of rolling hills and grassy fields. Small rivers enclose most of Corginia inside as most find it hard to swim and difficult to cross. But outside the city’s boundaries lie picturesque mountains and vast forest lands beyond them.</p>
+      <p>Corginians live peaceful lives, ruled by a monarchy. Their days are often spent sleeping in sunbeams, scratching themselves upon abandoned statues and tree stumps, as well as playing with toys and using them in games. They are big into sport and games, tinkering, and love eating. Most of their mechanical and arcane creations mostly serve to facilitate this lifestyle.</p>
+      <h4>PHYSICAL DESCRIPTION</h4>
+      <p>Stocky and squat, these cheerful canine companions can make a skilled and nimble addition to any gang of adventurers.</p>
+      <h4>CORGINIAN NAMES</h4>
+      <p>Corginian names typically follow the tradition of the local culture, but can be expected to have short syllables and deep, basal sounds akin to the barking and growling of their ancestors.</p>
+      <p>
+        <b>Male Names: </b>Aaron, Alf, Atticus, Arno, Boris, Cain, Duran, Edd, Fargo, Klaus, Mortimer, Paul, Rolf, Rudy, Sid, Winston
+      </p>
+      <p>
+        <b>Female Names: </b>Amber, Anne, Barb, Bella, Cheska, Diana, Elwyr, Gertrude, Hadda, Nenna, Ora, Rhea, Sam, Tulip, Zelda
+      </p>
+      <h4>CORGINIAN TRAITS</h4>
+      <p>Your corginian character has the following racial traits.</p>
+      <p>
+        <span class="feature">Ability Score Increase.</span>Your Charisma score increases by 2, and your Wisdom score increases by 1.<br />
+        <span class="feature">Age.</span>Corginians have lifespans equivalent to humans.<br />
+        <span class="feature">Alignment.</span>Corginians tend toward good alignments, as they let kindness and fancy guide their decisions. They are rarely evil, with most of them driven by curiosity rather than greed or other dark impulses.<br />
+        <span class="feature">Size.</span>Corginians are between 3-4 feet tall and often have a relatively stocky build, however with a healthy diet and proper exercise they are known to be quite slim. Your size is Small.<br />
+        <span class="feature">Speed.</span>Your base walking speed is 25 feet.<br />
+        <span class="feature">Darkvision.</span>You have a dog's keen senses, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.<br />
+        <span class="feature">Keen Senses.</span>You have proficiency in the Perception skill.<br />
+        <span class="feature">Nimble.</span>You can move through the space of any creature that is of a size larger than yours.<br />
+        <span class="feature">Slippery.</span>You have advantage on Strength (Athletics) and Dexterity (Acrobatics) checks made to escape a grapple.<br />
+        <span class="feature">Strong Jaws.</span>Your jaws are natural weapons, which you can use to make unarmed strikes. If you attack with them, you deal piercing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.<br />
+        <span class="feature">Languages.</span>You can speak, read, and write Common and one other language of your choice.<br />
+      </p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <stat name="charisma" value="2" />
+      <stat name="wisdom" value="1" />
+      <stat name="innate speed" value="25" bonus="base" />
+      <grant type="Size" id="ID_SIZE_SMALL" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <select type="Language" name="Language, Kalashtar" supports="Standard||Exotic" />
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+      <grant type="Racial Trait" id="ID_HOMEBREW_RACIAL_TRAIT_KEEN_SENSES" />
+      <grant type="Racial Trait" id="ID_HOMEBREW_RACIAL_TRAIT_NIMBLE" />
+      <grant type="Racial Trait" id="ID_HOMEBREW_RACIAL_TRAIT_SLIPPERY" />
+      <grant type="Racial Trait" id="ID_HOMEBREW_RACIAL_TRAIT_STRONG_JAWS" />
+    </rules>
+  </element>
+
+  <element name="Keen Senses" type="Racial Trait" source="Homebrew" id="ID_HOMEBREW_RACIAL_TRAIT_KEEN_SENSES">
+    <description>
+      <p>You have proficiency with the Perception skill.</p>
+    </description>
+    <sheet display="false">
+      <description>You have proficiency with the Perception skill.</description>
+    </sheet>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+    </rules>
+  </element>
+
+  <element name="Nimble" type="Racial Trait" source="Homebrew" id="ID_HOMEBREW_RACIAL_TRAIT_NIMBLE">
+    <description>
+      <p>You can move through the space of any creature that is of a size larger than yours.</p>
+    </description>
+    <sheet>
+      <description>You can move through the space of any creature that is of a size larger than yours.</description>
+    </sheet>
+  </element>
+
+  <element name="Slippery" type="Racial Trait" source="Homebrew" id="ID_HOMEBREW_RACIAL_TRAIT_SLIPPERY">
+    <description>
+      <p>You have advantage on Strength (Athletics) and Dexterity (Acrobatics) checks made to escape a grapple.</p>
+    </description>
+    <sheet>
+      <description>You have advantage on Strength (Athletics) and Dexterity (Acrobatics) checks made to escape a grapple.</description>
+    </sheet>
+  </element>
+
+  <element name="Strong Jaws" type="Racial Trait" source="Homebrew" id="ID_HOMEBREW_RACIAL_TRAIT_STRONG_JAWS">
+    <description>
+      <p>Your jaws are natural weapons, which you can use to make unarmed strikes. If you attack with them, you deal piercing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+    </description>
+    <sheet>
+      <description>Your jaws are natural weapons, which you can use to make unarmed strikes. If you attack with them, you deal piercing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</description>
+    </sheet>
+  </element>
+
+</elements>
