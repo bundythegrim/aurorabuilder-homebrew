@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.6">
-			<file name="class-artificer.xml" url="https://github.com/bundythegrim/aurorabuilder-homebrew/blob/main/artificer.xml" />
+			<file name="class-artificer-copy.xml" url="https://github.com/bundythegrim/aurorabuilder-homebrew/blob/main/artificer.xml" />
 		</update>
 	</info>
 	
