@@ -3,7 +3,7 @@
   <info>
     <name>Hombrewed Armorer</name>
     <update version="0.0.1">
-      <file name="subclass-armorer.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/unearthed-arcana/2020/20200224.xml" />
+      <file name="subclass-armorer.xml" url="https://github.com/bundythegrim/aurorabuilder-homebrew/blob/main/armorer.xml" />
     </update>
   </info>
 
