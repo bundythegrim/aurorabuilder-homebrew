@@ -115,12 +115,8 @@
         </strong> You design your armor to be in the frontline of conflict. It has the following features:
       </p>
       <ul class="unstyled mb">
-        <li>
-          <strong>Thunder Gauntlets.</strong> Your armored fists each count as a simple melee weapon, and each deals 1d8 thunder damage on a hit. A creature hit by the gauntlet has disadvantage on attack rolls against targets other than you until the start of your next turn, as the armor magically emits a distracting pulse when the creature attacks someone else.
-        </li>
-        <li>
-          <strong>Defensive Field.</strong> You gain a bonus action that you can use on each of your turns to gain temporary hit points equal to your level in this class, replacing any temporary hit points you already have. You lose these temporary hit points if you doff the armor.
-        </li>
+        <li><strong>Thunder Gauntlets.</strong> Your armored fists each count as a simple melee weapon, and each deals 1d8 thunder damage on a hit. A creature hit by the gauntlet has disadvantage on attack rolls against targets other than you until the start of your next turn, as the armor magically emits a distracting pulse when the creature attacks someone else.</li>
+        <li><strong>Defensive Field.</strong> You gain a bonus action that you can use on each of your turns to gain temporary hit points equal to your level in this class, replacing any temporary hit points you already have. You lose these temporary hit points if you doff the armor.</li>
       </ul>
       <p class="indent">
         <strong>
@@ -128,15 +124,9 @@
         </strong> You customize your armor for subtle undertakings. It has the following features:
       </p>
       <ul class="unstyled mb">
-        <li>
-          <strong>Lightning Launcher.</strong> A gemlike node appears on one of your armored fists or on the chest (your choice). It counts as a simple ranged weapon, with a normal range of 90 feet and a long range of 300 feet, and it deals 1d6 lightning damage on a hit. Once on each of your turns when you hit a creature with it, you can deal an extra 1d6 lightning damage to that target.
-        </li>
-        <li>
-          <strong>Powered Steps.</strong> Your walking speed increases by 5 feet.
-        </li>
-        <li>
-          <strong>Second Skin.</strong> The armor’s weight is negligible, and it becomes formfitting and wearable under clothing. If the armor normally imposes disadvantage on Dexterity (Stealth) checks, the power armor doesn’t.
-        </li>
+        <li><strong>Lightning Launcher.</strong> A gemlike node appears on one of your armored fists or on the chest (your choice). It counts as a simple ranged weapon, with a normal range of 90 feet and a long range of 300 feet, and it deals 1d6 lightning damage on a hit. Once on each of your turns when you hit a creature with it, you can deal an extra 1d6 lightning damage to that target.</li>
+        <li><strong>Powered Steps.</strong> Your walking speed increases by 5 feet.</li>
+        <li><strong>Second Skin.</strong> The armor’s weight is negligible, and it becomes formfitting and wearable under clothing. If the armor normally imposes disadvantage on Dexterity (Stealth) checks, the power armor doesn’t.</li>
       </ul>
     </description>
     <sheet>
@@ -206,12 +196,8 @@
     <description>
       <p>You design your armor to be in the frontline of conflict. It has the following features:</p>
       <ul class="unstyled mb">
-        <li>
-          <strong>Thunder Gauntlets.</strong> Your armored fists each count as a simple melee weapon, and each deals 1d8 thunder damage on a hit. A creature hit by the gauntlet has disadvantage on attack rolls against targets other than you until the start of your next turn, as the armor magically emits a distracting pulse when the creature attacks someone else.
-        </li>
-        <li>
-          <strong>Defensive Field.</strong> You gain a bonus action that you can use on each of your turns to gain temporary hit points equal to your level in this class, replacing any temporary hit points you already have. You lose these temporary hit points if you doff the armor.
-        </li>
+        <li><strong>Thunder Gauntlets.</strong> Your armored fists each count as a simple melee weapon, and each deals 1d8 thunder damage on a hit. A creature hit by the gauntlet has disadvantage on attack rolls against targets other than you until the start of your next turn, as the armor magically emits a distracting pulse when the creature attacks someone else.</li>
+        <li><strong>Defensive Field.</strong> You gain a bonus action that you can use on each of your turns to gain temporary hit points equal to your level in this class, replacing any temporary hit points you already have. You lose these temporary hit points if you doff the armor.</li>
       </ul>
       <div class="sidebar">
         <h5>Guardian Power Armor</h5>
@@ -231,15 +217,9 @@
     <description>
       <p>You customize your armor for subtle undertakings. It has the following features:</p>
       <ul class="unstyled mb">
-        <li>
-          <strong>Lightning Launcher.</strong> A gemlike node appears on one of your armored fists or on the chest (your choice). It counts as a simple ranged weapon, with a normal range of 90 feet and a long range of 300 feet, and it deals 1d6 lightning damage on a hit. Once on each of your turns when you hit a creature with it, you can deal an extra 1d6 lightning damage to that target.
-        </li>
-        <li>
-          <strong>Powered Steps.</strong> Your walking speed increases by 5 feet.
-        </li>
-        <li>
-          <strong>Second Skin.</strong> The armor’s weight is negligible, and it becomes formfitting and wearable under clothing. If the armor normally imposes disadvantage on Dexterity (Stealth) checks, the power armor doesn’t.
-        </li>
+        <li><strong>Lightning Launcher.</strong> A gemlike node appears on one of your armored fists or on the chest (your choice). It counts as a simple ranged weapon, with a normal range of 90 feet and a long range of 300 feet, and it deals 1d6 lightning damage on a hit. Once on each of your turns when you hit a creature with it, you can deal an extra 1d6 lightning damage to that target.</li>
+        <li><strong>Powered Steps.</strong> Your walking speed increases by 5 feet.</li>
+        <li><strong>Second Skin.</strong> The armor’s weight is negligible, and it becomes formfitting and wearable under clothing. If the armor normally imposes disadvantage on Dexterity (Stealth) checks, the power armor doesn’t.</li>
       </ul>
       <div class="sidebar">
         <h5>Guardian Power Armor</h5>
