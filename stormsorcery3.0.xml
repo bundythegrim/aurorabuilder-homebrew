@@ -3,7 +3,7 @@
   <info>
     <name>Storm Sorcery 3.0</name>
     <update version="0.0.1">
-      <file name="subclass-stormsorcery3.0.xml" url="https://github.com/bundythegrim/aurorabuilder-homebrew/blob/main/armorer.xml" />
+      <file name="subclass-stormsorcery3.0.xml" url="https://github.com/bundythegrim/aurorabuilder-homebrew/blob/main/stormsorcery3.0.xml" />
     </update>
   </info>
 
