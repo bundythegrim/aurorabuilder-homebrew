@@ -50,7 +50,7 @@
     </description>
     <sheet display="false" />
     <rules>
-      <grant type="Spell" id="ID_PHB_FOG_CLOUD" level="1" spellcasting="Sorcerer" />
+      <grant type="Spell" id="ID_PHB_SPELL_FOG_CLOUD" level="1" spellcasting="Sorcerer" />
       <grant type="Spell" id="ID_PHB_SPELL_THUNDERWAVE" level="1" spellcasting="Sorcerer" />
       <grant type="Spell" id="ID_PHB_SPELL_GUST_OF_WIND" level="3" spellcasting="Sorcerer" />
       <grant type="Spell" id="ID_PHB_SPELL_LEVITATE" level="3" spellcasting="Sorcerer" />
