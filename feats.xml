@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Feats</name>
+    <description>Feats from Tasha's Cauldron of Everything and Homebrews</description>
+    <update version="0.0.1">
+      <file name="feats.xml" url="https://github.com/bundythegrim/aurorabuilder-homebrew/blob/main/feats.xml" />
+    </update>
+  </info>
+  <element name="Charming Combatant" type="Feat" source="Homebrew" id="ID_HOMEBREW_FEAT_CHARMING_COMBATANT">
+    <prerequisite></prerequisite>
+    <requirements></requirements>
+    <description>
+      <p><i>Prerequisite: Charisma 13 or higher</i></p>
+      <p>You have refined and tailored your natural charm to turn against your foes in combat, forcing them hesitate in their strikes by giving them pause for a split second. You gain the following benefits:</p>
+      <ul>
+        <li>Increase your Charisma score by 1, to a maximum of 20.</li>
+        <li>When calculating your unarmored AC, you may add Charisma modifier to your AC. You can still use a shield and gain this benefit.</li>
+      </ul>
+    </description>
+    <sheet>
+      <description>When you aren’t wearing armor, your AC equals {{ac:charming combatant}}.</description>
+    </sheet>
+    <rules>
+      <stat name="charisma" value="1" />
+      <stat name="ac:charming combatant" value="10" />
+      <stat name="ac:charming combatant" value="dexterity:modifier" />
+      <stat name="ac:charming combatant" value="charisma:modifier" />
+      <stat name="ac:calculation" value="ac:charming combatant" bonus="calculation" equipped="[armor:none]" alt="Charming Combatant (Feat)" />
+    </rules>
+  </element>
