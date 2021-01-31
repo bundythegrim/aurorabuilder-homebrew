@@ -8,8 +8,8 @@
     </update>
   </info>
   <element name="Charming Combatant" type="Feat" source="Homebrew" id="ID_HOMEBREW_FEAT_CHARMING_COMBATANT">
-    <prerequisite></prerequisite>
-    <requirements></requirements>
+    <prerequisite>Charisma 13 or higher</prerequisite>
+    <requirements>[cha:13]</requirements>
     <description>
       <p><i>Prerequisite: Charisma 13 or higher</i></p>
       <p>You have refined and tailored your natural charm to turn against your foes in combat, forcing them hesitate in their strikes by giving them pause for a split second. You gain the following benefits:</p>
