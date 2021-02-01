@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Weapons</name>
+    <update version="0.0.4">
+      <file name="items-weapons.xml" url="https://github.com/bundythegrim/aurorabuilder-homebrew/blob/main/items-weapons.xml" />
+    </update>
+  </info>
