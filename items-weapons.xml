@@ -1,40 +1,51 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
   <info>
-    <name>Weapons</name>
-    <update version="0.0.4">
-      <file name="items-weapons.xml" url="https://github.com/bundythegrim/aurorabuilder-homebrew/blob/main/items-weapons.xml" />
+    <name>Feats</name>
+    <description>Feats from Tasha's Cauldron of Everything and Homebrews</description>
+    <update version="0.0.1">
+      <file name="feats.xml" url="https://github.com/bundythegrim/aurorabuilder-homebrew/blob/main/feats.xml" />
     </update>
   </info>
-  <element name="Lightsaber" type="Weapon" source="Crown of Kings Homebrew" id="ID_HOMEBREW_CK_WEAPON_LIGHTSABER">
-    <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+  <element name="Charming Combatant" type="Feat" source="Homebrew" id="ID_HOMEBREW_FEAT_CHARMING_COMBATANT">
+    <prerequisite>Charisma 13 or higher</prerequisite>
+    <requirements>[cha:13]</requirements>
     <description>
-      <p></p>
-      <div element="ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_LIGHTSABER" />
+      <p><i>Prerequisite: Charisma 13 or higher</i></p>
+      <p>You have refined and tailored your natural charm to turn against your foes in combat, forcing them hesitate in their strikes by giving them pause for a split second. You gain the following benefits:</p>
+      <ul>
+        <li>Increase your Charisma score by 1, to a maximum of 20.</li>
+        <li>When calculating your unarmored AC, you may add Charisma modifier to your AC. You can still use a shield and gain this benefit.</li>
+      </ul>
     </description>
-    <setters>
-      <set name="category">Weapons</set>
-      <set name="cost" currency="gp">200</set>
-      <set name="weight" lb="2">2 lb.</set>
-      <set name="slot">onehand</set>
-      <set name="damage" type="slashing">1d10</set>
-      <set name="versatile">2d6</set>
-      <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_LIGHTSABER</set>
-    </setters>
+    <sheet>
+      <description>When you aren’t wearing armor, your AC equals {{ac:charming combatant}}.</description>
+    </sheet>
+    <rules>
+      <stat name="charisma" value="1" />
+      <stat name="ac:charming combatant" value="10" />
+      <stat name="ac:charming combatant" value="dexterity:modifier" />
+      <stat name="ac:charming combatant" value="charisma:modifier" />
+      <stat name="ac:calculation" value="ac:charming combatant" bonus="calculation" equipped="[armor:none]" alt="Charming Combatant (Feat)" />
+    </rules>
   </element>
-  <element name="Double-bladed Lightsaber" type="Weapon" source="Crown of Kings Homebrew" id="ID_HOMEBREW_CK_WEAPON_DOUBLEBLADED_LIGHTSABER">
-    <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+  <element name="Skill Expert (Roland)" type="Feat" source="Crown of Kings Homebrew" id="ID_HOMEBREW_FEAT_SKILLED_EXPERT">
     <description>
-      <p></p>
-      <div element="ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_DOUBLEBLADED_LIGHTSABER" />
+      <p>You have honed your proficiency with particular skills, granting you the following benefits:</p>
+      <ul>
+        <li>Increase one ability score of your choice by 1, to a maximum of 20.</li>
+        <li>You gain proficiency in one skill of your choice.</li>
+        <li>Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus.</li>
+      </ul>
     </description>
-    <setters>
-      <set name="category">Weapons</set>
-      <set name="cost" currency="gp">200</set>
-      <set name="weight" lb="4">4 lb.</set>
-      <set name="slot">twohand</set>
-      <set name="damage" type="slashing">1d8</set>
-      <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DOUBLEBLADED_LIGHTSABER</set>
-    </setters>
+    <sheet>
+      <description>Your proficiency bonus is doubled for any ability check you make that uses the chosen proficiency.</description>
+    </sheet>
+    <rules>
+      <!-- for now, expertise for ease of use todo: future rework -->
+      <stat name="strength" value="1" />
+      <grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_MEDICINE" />
+      <grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_ATHLETICS" />
+    </rules>
   </element>
 </elements>
