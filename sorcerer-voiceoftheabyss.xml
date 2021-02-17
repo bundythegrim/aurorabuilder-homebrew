@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
   <info>
-    <name>Singer of the Abyss</name>
+    <name>Voice of the Abyss</name>
     <update version="0.0.1">
       <file name="subclass-sorcerer-voiceoftheabyss.xml" url="https://github.com/bundythegrim/aurorabuilder-homebrew/blob/main/sorcerer-voiceoftheabyss.xml" />
     </update>
@@ -87,8 +87,8 @@
         <em>1st-level Voice of the Abyss feature</em>
       </p>
       <p>You can invoke a secret abyssal magic called the Abyssal Chant, provided that you aren’t wearing medium or heavy armor or using a shield. It graces you with supernatural speed, agility, and focus.</p>
-      <p class="indent">You can use a bonus action to start the Bladesong, which lasts for 1 minute. It ends early if you are incapacitated, if you don medium or heavy armor or a shield, or if you use two hands to make an attack with a weapon. You can also dismiss the Bladesong at any time (no action required).</p>
-      <p class="indent">While your Bladesong is active, you gain the following benefits:</p>
+      <p class="indent">You can use a bonus action to start the Bladesong, which lasts for 1 minute. It ends early if you are incapacitated, if you don medium or heavy armor or a shield, or if you use two hands to make an attack with a weapon. You can also dismiss the Abyssal Chant at any time (no action required).</p>
+      <p class="indent">While your Abyssal Chant is active, you gain the following benefits:</p>
       <ul>
         <li>You gain a bonus to your AC equal to your Charisma modifier (minimum of +1)</li>
         <li>Your walking speed increases by 10 feet.</li>
