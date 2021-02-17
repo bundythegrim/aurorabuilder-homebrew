@@ -45,9 +45,9 @@
         <li><strong>Speed</strong> 40 ft.</li>
       </ul>
       <table style="text-align:center">
-        <thread>
+        <thead>
           <tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr>
-        </thread>
+        </thead>
         <tr><td>13 (+1)</td><td>16 (+3)</td><td>15 (+2)</td><td>4 (-4)</td><td>10 (+0)</td><td>16 (+3)</td></tr>
       </table>
       <ul class="unstyled mb">
