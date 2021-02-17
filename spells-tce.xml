@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
   <info>
-    <name>Singer of the Abyss</name>
+    <name>Spells</name>
     <update version="0.0.1">
       <file name="spells-tce.xml" url="https://github.com/bundythegrim/aurorabuilder-homebrew/blob/main/spells-tce.xml" />
     </update>
@@ -65,3 +65,4 @@
       <p><strong><em>Dreadful Scream (1/Day).</em></strong> The spirit screams. Each creature within 30 feet of it must succeed on a Wisdom saving throw against your spell save DC or be frightened of the spirit for 1 minute. The frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
     </description>
   </element>
+</elements>
