@@ -71,14 +71,14 @@
         <em>1st-level Voice of the Abyss feature</em>
       </p>
       <p>As a Voice of the Abyss you've been naturally gifted in combat. You've learned to manifest your abilities to create a one-handed melee weapon known as your Soul-Blade. You gain proficiency with this weapon while wielding it. While wielding your Soul-Blade you cannot wield any additional weapons. Additionally your Soul-Blade can be used as your arcane focus and you gain proficiency in light armor.</p>
-      <p class="indent">You can speak, read, and write Primordial. (Knowing this language allows you to understand and be understood by those who speak its dialects: Aquan, Auran, Ignan, and Terran.)</p>
+      <p class="indent">You can speak, read, and write Abyssal</p>
     </description>
     <sheet>
       <description>As a Voice of the Abyss you've been naturally gifted in combat. You've learned to manifest your abilities to create a one-handed melee weapon known as your Soul-Blade. You gain proficiency with this weapon while wielding it. While wielding your Soul-Blade you cannot wield any additional weapons. Additionally your Soul-Blade can be used as your arcane focus and you gain proficiency in light armor.
-      You can understand and be understood by those who speak Aquan, Auran, Ignan, and Terran.</description>
+      You can understand and be understood by those who speak Abyssal</description>
     </sheet>
   	<rules>
-			<grant type="Language" id="ID_LANGUAGE_PRIMORDIAL" />
+			<grant type="Language" id="ID_LANGUAGE_ABYSSAL" />
 		</rules>
   </element>
   <element name="Abyssal Chant" type="Archetype Feature" source="Crown of Kings Homebrew" id="ID_HOMEBREW_CK_ARCHETYPE_FEATURE_VOICEOFTHEABYSS_ABYSSALCHANT">
