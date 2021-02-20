@@ -1,1 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Skill Proficiencies</name>
+    <update version="0.0.1">
+      <file name="skill-proficiencies.xml" url="https://github.com/bundythegrim/aurorabuilder-homebrew/blob/main/skill-proficiencies.xml" />
+    </update>
+  </info>
 
+</elements>
