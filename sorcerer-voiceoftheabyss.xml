@@ -45,7 +45,7 @@
           <tr><td>Sorcerer Level</td><td>Spells</td></tr>
         </thead>
         <tr><td>1st</td><td><em>false life, inflict wounds</em></td></tr>
-        <tr><td>3rd</td><td><em>alter self, blindness/deafness</em></td></tr>
+        <tr><td>3rd</td><td><em>blindness/deafness, magic weapon</em></td></tr>
         <tr><td>5th</td><td><em>dispel magic, summon shadowspawn</em></td></tr>
         <tr><td>7th</td><td><em>tbc, tbc</em></td></tr>
         <tr><td>9th</td><td><em>tbc, tbc</em></td></tr>
@@ -55,8 +55,8 @@
     <rules>
       <grant type="Spell" id="ID_PHB_SPELL_FALSE_LIFE" level="1" spellcasting="Sorcerer" />
       <grant type="Spell" id="ID_PHB_SPELL_INFLICT_WOUNDS" level="1" spellcasting="Sorcerer" />
-      <grant type="Spell" id="ID_PHB_SPELL_ALTER_SELF" level="3" spellcasting="Sorcerer" />
       <grant type="Spell" id="ID_PHB_SPELL_BLINDNESS_DEAFNESS" level="3" spellcasting="Sorcerer" />
+      <grant type="Spell" id="ID_PHB_SPELL_MAGIC_WEAPON" level="3" spellcasting="Sorcerer" />
       <grant type="Spell" id="ID_PHB_SPELL_DISPEL_MAGIC" level="5" spellcasting="Sorcerer" />
       <grant type="Spell" id="ID_TCE_SPELL_SUMMON_SHADOWSPAWN" level="5" spellcasting="Sorcerer" />
       <grant type="Spell" id="ID_XGTE_SPELL_STORM_SPHERE" level="7" spellcasting="Sorcerer" />
