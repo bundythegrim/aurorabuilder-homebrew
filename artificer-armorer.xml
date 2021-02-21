@@ -7,30 +7,30 @@
     </update>
   </info>
 
-  <element name="Armorer" type="Archetype" source="Tasha's Cauldron of Everything" id="ID_TCE_ARCHETYPE_ARTIFICER_ARMORER">
+  <element name="Armorer" type="Archetype" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_ARTIFICER_ARMORER">
     <supports>Artificer Specialist</supports>
     <description>
       <p>An artificer who specializes as an Armorer modifies armor to function almost like a second skin. The armor is enhanced to hone the artificer’s magic, unleash potent attacks, and generate a formidable defense. The artificer bonds with this armor, becoming one with it even as they experiment with it and refine its magical capabilities.</p>
-      <div element="ID_TCE_ARCHETYPE_FEATURE_ARMORER_TOOLS_OF_THE_TRADE" />
-      <div element="ID_TCE_ARCHETYPE_FEATURE_ARMORER_ARMORER_SPELLS" />
-      <div element="ID_TCE_ARCHETYPE_FEATURE_ARMORER_POWER_ARMOR" />
-      <div element="ID_TCE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODEL" />
-      <div element="ID_TCE_ARCHETYPE_FEATURE_ARMORER_EXTRA_ATTACK" />
-      <div element="ID_TCE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODIFICATIONS" />
-      <div element="ID_TCE_ARCHETYPE_FEATURE_ARMORER_PERFECTED_ARMOR" />
+      <div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_TOOLS_OF_THE_TRADE" />
+      <div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARMORER_SPELLS" />
+      <div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_POWER_ARMOR" />
+      <div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODEL" />
+      <div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_EXTRA_ATTACK" />
+      <div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODIFICATIONS" />
+      <div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_PERFECTED_ARMOR" />
     </description>
     <sheet display="false" />
     <rules>
-      <grant type="Archetype Feature" id="ID_TCE_ARCHETYPE_FEATURE_ARMORER_TOOLS_OF_THE_TRADE" level="3" />
-      <grant type="Archetype Feature" id="ID_TCE_ARCHETYPE_FEATURE_ARMORER_ARMORER_SPELLS" level="3" />
-      <grant type="Archetype Feature" id="ID_TCE_ARCHETYPE_FEATURE_ARMORER_POWER_ARMOR" level="3" />
-      <grant type="Archetype Feature" id="ID_TCE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODEL" level="3" />
-      <grant type="Archetype Feature" id="ID_TCE_ARCHETYPE_FEATURE_ARMORER_EXTRA_ATTACK" level="5" />
-      <grant type="Archetype Feature" id="ID_TCE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODIFICATIONS" level="9" />
-      <grant type="Archetype Feature" id="ID_TCE_ARCHETYPE_FEATURE_ARMORER_PERFECTED_ARMOR" level="15" />
+      <grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_TOOLS_OF_THE_TRADE" level="3" />
+      <grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARMORER_SPELLS" level="3" />
+      <grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_POWER_ARMOR" level="3" />
+      <grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODEL" level="3" />
+      <grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_EXTRA_ATTACK" level="5" />
+      <grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODIFICATIONS" level="9" />
+      <grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_PERFECTED_ARMOR" level="15" />
     </rules>
   </element>
-  <element name="Tools of the Trade" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCE_ARCHETYPE_FEATURE_ARMORER_TOOLS_OF_THE_TRADE">
+  <element name="Tools of the Trade" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_TOOLS_OF_THE_TRADE">
     <description>
       <p>
         <em>3rd-level Armorer feature</em>
@@ -45,7 +45,7 @@
       <select type="Proficiency" name="Tool Proficiency, Tools of the Trade" supports="Artisan tools" default="ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS" />
     </rules>
   </element>
-  <element name="Armorer Spells" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCE_ARCHETYPE_FEATURE_ARMORER_ARMORER_SPELLS">
+  <element name="Armorer Spells" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARMORER_SPELLS">
     <description>
       <p>
         <em>3rd-level Armorer feature</em>
@@ -79,7 +79,7 @@
       <grant type="Spell" id="ID_PHB_SPELL_WALL_OF_FORCE" spellcasting="Artificer" level="17" prepared="true" />
     </rules>
   </element>
-  <element name="Power Armor" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCE_ARCHETYPE_FEATURE_ARMORER_POWER_ARMOR">
+  <element name="Power Armor" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_POWER_ARMOR">
     <description>
       <p>
         <em>3rd-level Armorer feature</em>
@@ -102,7 +102,7 @@
       </description>
     </sheet>
   </element>
-  <element name="Armor Model" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODEL">
+  <element name="Armor Model" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODEL">
     <description>
       <p>
         <em>3rd-level Armorer feature</em>
@@ -136,7 +136,7 @@
       <select type="Archetype Feature" name="Power Armor Model, Armorer" supports="UA Armorer Armor Model" optional="true" />
     </rules>
   </element>
-  <element name="Extra Attack" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCE_ARCHETYPE_FEATURE_ARMORER_EXTRA_ATTACK">
+  <element name="Extra Attack" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_EXTRA_ATTACK">
     <description>
       <p>
         <em>5th-level Armorer feature</em>
@@ -150,7 +150,7 @@
       <stat name="extra attack:count" value="2" bonus="extra attack" />
     </rules>
   </element>
-  <element name="Armor Modifications" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODIFICATIONS">
+  <element name="Armor Modifications" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODIFICATIONS">
     <description>
       <p>
         <em>9th-level Armorer feature</em>
@@ -164,7 +164,7 @@
       <stat name="item infusions:max" value="2" />
     </rules>
   </element>
-  <element name="Perfected Armor" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCE_ARCHETYPE_FEATURE_ARMORER_PERFECTED_ARMOR">
+  <element name="Perfected Armor" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_PERFECTED_ARMOR">
     <description>
       <p>
         <em>15th-level Armorer feature</em>
@@ -186,13 +186,13 @@
       <description>Your power armor gains additional benefits based on its model.</description>
     </sheet>
     <rules>
-      <grant type="Archetype Feature" id="ID_TCE_ARCHETYPE_FEATURE_ARMORER_MODEL_GUARDIAN_PERFECTED" requirements="ID_TCE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODEL_GUARDIAN" />
-      <grant type="Archetype Feature" id="ID_TCE_ARCHETYPE_FEATURE_ARMORER_MODEL_INFILTRATOR_PERFECTED" requirements="ID_TCE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODEL_INFILTRATOR" />
+      <grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_MODEL_GUARDIAN_PERFECTED" requirements="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODEL_GUARDIAN" />
+      <grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_MODEL_INFILTRATOR_PERFECTED" requirements="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODEL_INFILTRATOR" />
     </rules>
   </element>
 
   <!-- 
-	<element name="Thunder Gauntlet" type="Weapon" source="Tasha's Cauldron of Everything" id="ID_TCE_WEAPON_THUNDER_GAUNTLET">
+	<element name="Thunder Gauntlet" type="Weapon" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_WEAPON_THUNDER_GAUNTLET">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE</supports>
 		<description>
 			<p>Your armored fists each count as a simple melee weapon, and each deals 1d8 thunder damage on a hit. A creature hit by the gauntlet has disadvantage on attack rolls against targets other than you until the start of your next turn, as the armor magically emits a distracting pulse when the creature attacks someone else.</p>
@@ -205,7 +205,7 @@
 			<set name="damage" type="thunder">1d8</set>
 		</setters>
 	</element>
-	<element name="Lightning Launcher" type="Weapon" source="Tasha's Cauldron of Everything" id="ID_TCE_WEAPON_LIGHTNING_LAUNCHER">
+	<element name="Lightning Launcher" type="Weapon" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_WEAPON_LIGHTNING_LAUNCHER">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED</supports>
 		<description>
 			<p>A gemlike node appears on one of your armored fists or on the chest (your choice). It counts as a simple ranged weapon, with a normal range of 90 feet and a long range of 300 feet, and it deals 1d6 lightning damage on a hit. Once on each of your turns when you hit a creature with it, you can deal an extra 1d6 lightning damage to that target.</p>
