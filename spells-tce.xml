@@ -7,7 +7,7 @@
     </update>
   </info>
 
-  <element name="Summon Shadowspawn" type="Spell" source="Tasha's Cauldron of Everything" id="ID_TCE_SPELL_SUMMON_SHADOWSPAWN">
+  <element name="Summon Shadowspawn" type="Spell" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_SUMMON_SHADOWSPAWN">
     <supports>Warlock,Wizard</supports>
     <description>
       <p>You call forth a shadowy spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Shadow Spirit stat block. When you cast the spell, choose an emotion: Fury, Despair, or Fear. The creature resembles a misshapen biped marked by the chosen emotion, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.</p>
@@ -18,7 +18,7 @@
         </strong> When you cast the spell using a spell slot of 4th level or higher, use the higher level wherever the spell’s level appears on the stat block.
       </p>
       <div class="reference">
-        <div element="ID_TCE_INFORMATION_SUMMON_SHADOWSPAWN_STATBLOCK" />
+        <div element="ID_WOTC_TCOE_INFORMATION_SUMMON_SHADOWSPAWN_STATBLOCK" />
       </div>
     </description>
     <setters>
@@ -36,7 +36,7 @@
       <set name="isRitual">false</set>
     </setters>
   </element>
-  <element name="Shadowspawn" type="Information" source="Tasha's Cauldron of Everything" id="ID_TCE_INFORMATION_SUMMON_SHADOWSPAWN_STATBLOCK">
+  <element name="Shadowspawn" type="Information" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_INFORMATION_SUMMON_SHADOWSPAWN_STATBLOCK">
     <description>
       <p><em>Medium monstrosity</em></p>
       <ul class="unstyled mb">
