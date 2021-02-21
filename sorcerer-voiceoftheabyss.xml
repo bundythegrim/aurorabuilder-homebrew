@@ -58,7 +58,7 @@
       <grant type="Spell" id="ID_PHB_SPELL_BLINDNESS_DEAFNESS" level="3" spellcasting="Sorcerer" />
       <grant type="Spell" id="ID_PHB_SPELL_MAGIC_WEAPON" level="3" spellcasting="Sorcerer" />
       <grant type="Spell" id="ID_PHB_SPELL_DISPEL_MAGIC" level="5" spellcasting="Sorcerer" />
-      <grant type="Spell" id="ID_TCE_SPELL_SUMMON_SHADOWSPAWN" level="5" spellcasting="Sorcerer" />
+      <grant type="Spell" id="ID_WOTC_TCOE_SPELL_SUMMON_SHADOWSPAWN" level="5" spellcasting="Sorcerer" />
       <grant type="Spell" id="ID_XGTE_SPELL_STORM_SPHERE" level="7" spellcasting="Sorcerer" />
       <grant type="Spell" id="ID_XGTE_SPELL_WATERY_SPHERE" level="7" spellcasting="Sorcerer" />
       <grant type="Spell" id="ID_PHB_SPELL_DESTRUCTIVE_WAVE" level="9" spellcasting="Sorcerer" />
