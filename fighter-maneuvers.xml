@@ -1,1 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Maneuvers</name>
+    <update version="0.0.1">
+      <file name="fighter-maneuvers.xml" url="https://github.com/bundythegrim/aurorabuilder-homebrew/blob/main/fighter-maneuvers.xml" />
+    </update>
+  </info>
 
+<element name="Bait and Switch" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_MANEUVER_BAIT_AND_SWITCH">
+  <supports>Maneuver, Battle Master</supports>
+  <description>
+    <p>When you're within 5 feet of a creature on your turn, you can expend one superiority die and switch places with that creature, provided you spend at least 5 feet of movement and the creature is willing and isn't incapacitated. This movement doesn't provoke opportunity attacks.</p>
+    <p>Roll the superiority die. Until the start of your next turn, you or the other creature (your choice) gains a bonus to AC equal to the number rolled.</p>
+  </description>
+  <sheet>
+    <description>
+      When you're within 5 feet of a creature on your turn, you can expend one superiority die and switch places with that creature, provided you spend at least 5 feet of movement and the creature is willing and isn't incapacitated. This movement doesn't provoke opportunity attacks.
+      Roll the superiority die. Until the start of your next turn, you or the other creature (your choice) gains a bonus to AC equal to the number rolled.
+    </description>
+  </sheet>
+</element>
+
+</elements>
