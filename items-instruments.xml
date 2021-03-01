@@ -7,7 +7,7 @@
     </update>
   </info>
 
-  <element name="Castanets" type="Item" source="Crown of Kings Homebrew" id="ID_HOMEBREW_CK_INSTRUMENT_DRUM">
+  <element name="Castanets" type="Item" source="Crown of Kings Homebrew" id="ID_HOMEBREW_CK_INSTRUMENT_CASTANETS">
     <supports>ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT</supports>
     <description>
       <p>If you have proficiency with the castanets, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus.</p>
@@ -20,6 +20,12 @@
       <set name="type">Tool</set>
       <set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_CASTANETS</set>
     </setters>
+  </element>
+  <element name="Tool Proficiency (Castanets)" type="Proficiency" source="Crown of Kings Homebrew" id="ID_PROFICIENCY_TOOL_PROFICIENCY_CASTANETS">
+    <supports>Tool, Musical Instrument, ID_PROFICIENCY_MUSICAL_INSTRUMENT</supports>
+    <description>
+      <p>Castanets, also known as clackers or palillos, are a percussion instrument. The instrument consists of a pair of concave shells joined on one edge by a string. They are held in the hand and used to produce clicks for rhythmic accents or a ripping or rattling sound consisting of a rapid series of clicks. They are traditionally made of hardwood.</p>
+    </description>
   </element>
 
 </elements>
