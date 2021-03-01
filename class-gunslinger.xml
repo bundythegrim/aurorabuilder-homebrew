@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Voice of the Abyss</name>
+    <update version="0.0.1">
+      <file name="class-gunslinger.xml" url="https://github.com/bundythegrim/aurorabuilder-homebrew/blob/main/class-gunslinger.xml" />
+    </update>
+  </info>
+
+</elements>
