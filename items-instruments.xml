@@ -27,5 +27,26 @@
       <p>Castanets, also known as clackers or palillos, are a percussion instrument. The instrument consists of a pair of concave shells joined on one edge by a string. They are held in the hand and used to produce clicks for rhythmic accents or a ripping or rattling sound consisting of a rapid series of clicks. They are traditionally made of hardwood.</p>
     </description>
   </element>
+  
+  <element name="Saxophone" type="Item" source="Crown of Kings Homebrew" id="ID_HOMEBREW_CK_INSTRUMENT_SAXOPHONE">
+    <supports>ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT</supports>
+    <description>
+      <p>If you have proficiency with the saxophone, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus.</p>
+    </description>
+    <setters>
+      <set name="category">Musical Instruments</set>
+      <set name="cost" currency="gp">30</set>
+      <set name="weight" lb="4">4 lbs.</set>
+      <set name="slot">onehand</set>
+      <set name="type">Tool</set>
+      <set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_SAXOPHONE</set>
+    </setters>
+  </element>
+  <element name="Tool Proficiency (Castanets)" type="Proficiency" source="Crown of Kings Homebrew" id="ID_PROFICIENCY_TOOL_PROFICIENCY_SAXOPHONE">
+    <supports>Tool, Musical Instrument, ID_PROFICIENCY_MUSICAL_INSTRUMENT</supports>
+    <description>
+      <p>The saxophone (referred to colloquially as the sax) is a family of woodwind instruments usually made of brass and played with a single-reed mouthpiece. Although most saxophones are made from brass, they are categorized as woodwind instruments, because sound is produced by an oscillating reed (traditionally made out of woody cane) rather than lips vibrating in a mouthpiece cup as with the brass instrument family. As with the other woodwind instruments, the pitch of the note being played is controlled by covering holes in the body tube to control the resonant frequency of the air column by changing the effective length of the tube. The player covers or uncovers the holes by pressing keys.</p>
+    </description>
+  </element>
 
 </elements>
