@@ -42,7 +42,7 @@
       <set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_SAXOPHONE</set>
     </setters>
   </element>
-  <element name="Tool Proficiency (Castanets)" type="Proficiency" source="Crown of Kings Homebrew" id="ID_PROFICIENCY_TOOL_PROFICIENCY_SAXOPHONE">
+  <element name="Tool Proficiency (Saxophone)" type="Proficiency" source="Crown of Kings Homebrew" id="ID_PROFICIENCY_TOOL_PROFICIENCY_SAXOPHONE">
     <supports>Tool, Musical Instrument, ID_PROFICIENCY_MUSICAL_INSTRUMENT</supports>
     <description>
       <p>The saxophone (referred to colloquially as the sax) is a family of woodwind instruments usually made of brass and played with a single-reed mouthpiece. Although most saxophones are made from brass, they are categorized as woodwind instruments, because sound is produced by an oscillating reed (traditionally made out of woody cane) rather than lips vibrating in a mouthpiece cup as with the brass instrument family. As with the other woodwind instruments, the pitch of the note being played is controlled by covering holes in the body tube to control the resonant frequency of the air column by changing the effective length of the tube. The player covers or uncovers the holes by pressing keys.</p>
