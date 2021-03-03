@@ -49,4 +49,25 @@
     </description>
   </element>
 
+  <element name="Guitar" type="Item" source="Crown of Kings Homebrew" id="ID_HOMEBREW_CK_INSTRUMENT_GUITAR">
+    <supports>ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT</supports>
+    <description>
+      <p>If you have proficiency with the guitar, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus.</p>
+    </description>
+    <setters>
+      <set name="category">Musical Instruments</set>
+      <set name="cost" currency="gp">10</set>
+      <set name="weight" lb="2">2 lbs.</set>
+      <set name="slot">onehand</set>
+      <set name="type">Tool</set>
+      <set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_GUITAR</set>
+    </setters>
+  </element>
+  <element name="Tool Proficiency (Guitar)" type="Proficiency" source="Crown of Kings Homebrew" id="ID_PROFICIENCY_TOOL_PROFICIENCY_GUITAR">
+    <supports>Tool, Musical Instrument, ID_PROFICIENCY_MUSICAL_INSTRUMENT</supports>
+    <description>
+      <p>The guitar is a fretted musical instrument that typically has six strings. It is held flat against the player's body and played by strumming or plucking the strings with the dominant hand, while simultaneously pressing the strings against frets with the fingers of the opposite hand. A plectrum or individual finger picks may by be used to strike the strings. The sound of the guitar is projected either acoustically, by means of a resonant chamber on the instrument, or amplified by an electronic pickup and an amplifier.</p>
+    </description>
+  </element>
+
 </elements>
