@@ -43,10 +43,10 @@
           <tr><td>Sorcerer Level</td><td>Spells</td></tr>
         </thead>
         <tr><td>1st</td><td><em>bless, cure wounds</em></td></tr>
-        <tr><td>3rd</td><td><em>gust of wind, levitate</em></td></tr>
-        <tr><td>5th</td><td><em>lightning bolt, thunder step</em></td></tr>
-        <tr><td>7th</td><td><em>strom sphere, watery sphere</em></td></tr>
-        <tr><td>9th</td><td><em>destructive wave, wrath of nature</em></td></tr>
+        <tr><td>3rd</td><td><em>aid, lesser restoration</em></td></tr>
+        <tr><td>5th</td><td><em>remove curse, revivify</em></td></tr>
+        <tr><td>7th</td><td><em>aura of life, aura of purity</em></td></tr>
+        <tr><td>9th</td><td><em>greater restoration, summon celestial</em></td></tr>
       </table>
 		</description>
 		<spellcasting name="Sorcerer" extend="true">
@@ -56,14 +56,14 @@
     <rules>
       <grant type="Spell" id="ID_PHB_SPELL_BLESS" level="1" spellcasting="Sorcerer" />
       <grant type="Spell" id="ID_PHB_SPELL_CURE_WOUNDS" level="1" spellcasting="Sorcerer" />
-      <grant type="Spell" id="ID_PHB_SPELL_GUST_OF_WIND" level="3" spellcasting="Sorcerer" />
-      <grant type="Spell" id="ID_PHB_SPELL_LEVITATE" level="3" spellcasting="Sorcerer" />
-      <grant type="Spell" id="ID_PHB_SPELL_LIGHTNING_BOLT" level="5" spellcasting="Sorcerer" />
-      <grant type="Spell" id="ID_XGTE_SPELL_THUNDER_STEP" level="5" spellcasting="Sorcerer" />
-      <grant type="Spell" id="ID_XGTE_SPELL_STORM_SPHERE" level="7" spellcasting="Sorcerer" />
-      <grant type="Spell" id="ID_XGTE_SPELL_WATERY_SPHERE" level="7" spellcasting="Sorcerer" />
-      <grant type="Spell" id="ID_PHB_SPELL_DESTRUCTIVE_WAVE" level="9" spellcasting="Sorcerer" />
-      <grant type="Spell" id="ID_XGTE_SPELL_WRATH_OF_NATURE" level="9" spellcasting="Sorcerer" />
+      <grant type="Spell" id="ID_PHB_SPELL_AID" level="3" spellcasting="Sorcerer" />
+      <grant type="Spell" id="ID_PHB_SPELL_LESSER_RESTORATION" level="3" spellcasting="Sorcerer" />
+      <grant type="Spell" id="ID_PHB_SPELL_REMOVE_CURSE" level="5" spellcasting="Sorcerer" />
+      <grant type="Spell" id="ID_PHB_SPELL_REVIVIFY" level="5" spellcasting="Sorcerer" />
+      <grant type="Spell" id="ID_PHB_SPELL_AURA_OF_LIFE" level="7" spellcasting="Sorcerer" />
+      <grant type="Spell" id="ID_PHB_SPELL_AURA_OF_PURITY" level="7" spellcasting="Sorcerer" />
+      <grant type="Spell" id="ID_PHB_SPELL_GREATER_RESTORATION" level="9" spellcasting="Sorcerer" />
+      <grant type="Spell" id="ID_WOTC_TCOE_SPELL_SUMMON_CELESTIAL" level="9" spellcasting="Sorcerer" />
     </rules>
 	</element>
 
@@ -99,9 +99,6 @@
 		<sheet>
 			<description>You can use a bonus action to manifest a pair of spectral wings from your back. While the wings are present, you have a flying speed of 30 feet. The wings last until you're incapacitated, you die, or you dismiss them as a bonus action.</description>
 		</sheet>
-		<rules>
-			<stat name="otherworldly wings appearance" value="wings" inline="true" />
-		</rules>
 	</element>
 	<element name="Unearthly Recovery" type="Archetype Feature" source="Crown of Kings Homebrew" id="ID_HOMEBREW_CK_ARCHETYPE_FEATURE_DIVINE_SOUL_UNEARTHLY_RECOVERY">
 		<description>
