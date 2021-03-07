@@ -35,7 +35,7 @@
         <em>1st-level Storm Sorcery feature</em>
       </p>
       <p>You learn additional spells when you reach certain levels in this class, as shown on the Storm Spells table. Each spell counts as a sorcerer spell for you, but it doesn’t count against the number of sorcerer spells you know.</p>
-      <p>Whenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be a conjuration or an evocation spell from the sorcerer, warlock or wizard spell list, but will no longer work with your Electron Sorcery feature.</p>
+      <p class="indent">Whenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be a conjuration or an evocation spell from the sorcerer, warlock or wizard spell list, but will no longer work with your Electron Sorcery feature.</p>
       <h5 class="caption">Storm Spells</h5>
       <table>
         <thead>
