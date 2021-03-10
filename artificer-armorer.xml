@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
   <info>
-    <name>Hombrewed Armorer</name>
+    <name>Armorer</name>
     <update version="0.0.1">
       <file name="subclass-artificer-armorer.xml" url="https://github.com/bundythegrim/aurorabuilder-homebrew/blob/main/artificer-armorer.xml" />
     </update>
