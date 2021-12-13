@@ -7,30 +7,30 @@
     </update>
   </info>
 
-  <element name="Divine Soul (Toro Del)" type="Archetype" source="Crown of Kings Homebrew" id="ID_HOMEBREW_CK_ARCHETYPE_DIVINE_SOUL">
+  <element name="Divine Soul (Toro Del)" type="Archetype" source="Voseren Homebrew" id="ID_HOMEBREW_VOS_ARCHETYPE_DIVINE_SOUL">
     <supports>Sorcerous Origin</supports>
     <description>
       <p>Sometimes the spark of magic that fuels a sorcerer comes from a divine source that glimmers within the soul. Having such a blessed soul is a sign that your innate magic might come from a distant but powerful familial connection to a divine being. Perhaps your ancestor was an angel, transformed into a mortal and sent to fight in a god’s name. Or your birth might align with an ancient prophecy, marking you as a servant of the gods or a chosen vessel of divine magic.</p>
       <p class="indent">A Divine Soul, with a natural magnetism, is seen as a threat by some religious hierarchies. As an outsider who commands sacred power, a Divine Soul can undermine an existing order by claiming a direct tie to the divine.</p>
       <p class="indent">In some cultures, only those who can claim the power of a Divine Soul may command religious power. In these lands, ecclesiastical positions are dominated by a few bloodlines and preserved over generations.</p>
-      <div element="ID_HOMEBREW_CK_ARCHETYPE_FEATURE_DIVINE_SOUL_DIVINE_MAGIC" />
-      <div element="ID_HOMEBREW_CK_ARCHETYPE_FEATURE_DIVINE_SOUL_FAVORED_BY_THE_GODS" />
-      <div element="ID_HOMEBREW_CK_ARCHETYPE_FEATURE_DIVINE_SOUL_EMPOWERED_HEALING" />
-      <div element="ID_HOMEBREW_CK_ARCHETYPE_FEATURE_DIVINE_SOUL_OTHERWORLDLY_WINGS" />
-      <div element="ID_HOMEBREW_CK_ARCHETYPE_FEATURE_DIVINE_SOUL_UNEARTHLY_RECOVERY" />
+      <div element="ID_HOMEBREW_VOS_ARCHETYPE_FEATURE_DIVINE_SOUL_DIVINE_MAGIC" />
+      <div element="ID_HOMEBREW_VOS_ARCHETYPE_FEATURE_DIVINE_SOUL_FAVORED_BY_THE_GODS" />
+      <div element="ID_HOMEBREW_VOS_ARCHETYPE_FEATURE_DIVINE_SOUL_EMPOWERED_HEALING" />
+      <div element="ID_HOMEBREW_VOS_ARCHETYPE_FEATURE_DIVINE_SOUL_OTHERWORLDLY_WINGS" />
+      <div element="ID_HOMEBREW_VOS_ARCHETYPE_FEATURE_DIVINE_SOUL_UNEARTHLY_RECOVERY" />
     </description>
     <sheet>
       <description>Sometimes the spark of magic that fuels a sorcerer comes from a divine source that glimmers within the soul.</description>
     </sheet>
     <rules>
-      <grant type="Archetype Feature" id="ID_HOMEBREW_CK_ARCHETYPE_FEATURE_DIVINE_SOUL_DIVINE_MAGIC" level="1" />
-      <grant type="Archetype Feature" id="ID_HOMEBREW_CK_ARCHETYPE_FEATURE_DIVINE_SOUL_FAVORED_BY_THE_GODS" level="1" />
-      <grant type="Archetype Feature" id="ID_HOMEBREW_CK_ARCHETYPE_FEATURE_DIVINE_SOUL_EMPOWERED_HEALING" level="6" />
-      <grant type="Archetype Feature" id="ID_HOMEBREW_CK_ARCHETYPE_FEATURE_DIVINE_SOUL_OTHERWORLDLY_WINGS" level="14" />
-      <grant type="Archetype Feature" id="ID_HOMEBREW_CK_ARCHETYPE_FEATURE_DIVINE_SOUL_UNEARTHLY_RECOVERY" level="18" />
+      <grant type="Archetype Feature" id="ID_HOMEBREW_VOS_ARCHETYPE_FEATURE_DIVINE_SOUL_DIVINE_MAGIC" level="1" />
+      <grant type="Archetype Feature" id="ID_HOMEBREW_VOS_ARCHETYPE_FEATURE_DIVINE_SOUL_FAVORED_BY_THE_GODS" level="1" />
+      <grant type="Archetype Feature" id="ID_HOMEBREW_VOS_ARCHETYPE_FEATURE_DIVINE_SOUL_EMPOWERED_HEALING" level="6" />
+      <grant type="Archetype Feature" id="ID_HOMEBREW_VOS_ARCHETYPE_FEATURE_DIVINE_SOUL_OTHERWORLDLY_WINGS" level="14" />
+      <grant type="Archetype Feature" id="ID_HOMEBREW_VOS_ARCHETYPE_FEATURE_DIVINE_SOUL_UNEARTHLY_RECOVERY" level="18" />
     </rules>
   </element>
-  <element name="Divine Magic" type="Archetype Feature" source="Crown of Kings Homebrew" id="ID_HOMEBREW_CK_ARCHETYPE_FEATURE_DIVINE_SOUL_DIVINE_MAGIC">
+  <element name="Divine Magic" type="Archetype Feature" source="Voseren Homebrew" id="ID_HOMEBREW_VOS_ARCHETYPE_FEATURE_DIVINE_SOUL_DIVINE_MAGIC">
     <description>
       <p>
         <em>1st-level Divine Soul feature</em>
@@ -95,7 +95,7 @@
     </rules>
   </element>
 
-  <element name="Favored by the Gods" type="Archetype Feature" source="Crown of Kings Homebrew" id="ID_HOMEBREW_CK_ARCHETYPE_FEATURE_DIVINE_SOUL_FAVORED_BY_THE_GODS">
+  <element name="Favored by the Gods" type="Archetype Feature" source="Voseren Homebrew" id="ID_HOMEBREW_VOS_ARCHETYPE_FEATURE_DIVINE_SOUL_FAVORED_BY_THE_GODS">
     <description>
       <p>
         <em>1st-level Divine Soul feature</em>
@@ -106,7 +106,7 @@
       <description>If you fail a saving throw or miss with an attack roll, you can roll 2d4 and add it to the total, possibly changing the outcome.</description>
     </sheet>
   </element>
-  <element name="Empowered Healing" type="Archetype Feature" source="Crown of Kings Homebrew" id="ID_HOMEBREW_CK_ARCHETYPE_FEATURE_DIVINE_SOUL_EMPOWERED_HEALING">
+  <element name="Empowered Healing" type="Archetype Feature" source="Voseren Homebrew" id="ID_HOMEBREW_VOS_ARCHETYPE_FEATURE_DIVINE_SOUL_EMPOWERED_HEALING">
     <description>
       <p>
         <em>6th-level Divine Soul feature</em>
@@ -117,7 +117,7 @@
       <description>Whenever you or an ally within 5 feet of you rolls dice to determine the number of hit points a spell restores, you can spend 1 sorcery point to reroll any number of those dice once, provided you aren't incapacitated. You can use this feature only once per turn.</description>
     </sheet>
   </element>
-  <element name="Otherworldly Wings" type="Archetype Feature" source="Crown of Kings Homebrew" id="ID_HOMEBREW_CK_ARCHETYPE_FEATURE_DIVINE_SOUL_OTHERWORLDLY_WINGS">
+  <element name="Otherworldly Wings" type="Archetype Feature" source="Voseren Homebrew" id="ID_HOMEBREW_VOS_ARCHETYPE_FEATURE_DIVINE_SOUL_OTHERWORLDLY_WINGS">
     <description>
       <p>
         <em>14th-level Divine Soul feature</em>
@@ -128,7 +128,7 @@
       <description>You can use a bonus action to manifest a pair of spectral wings from your back. While the wings are present, you have a flying speed of 30 feet. The wings last until you're incapacitated, you die, or you dismiss them as a bonus action.</description>
     </sheet>
   </element>
-  <element name="Unearthly Recovery" type="Archetype Feature" source="Crown of Kings Homebrew" id="ID_HOMEBREW_CK_ARCHETYPE_FEATURE_DIVINE_SOUL_UNEARTHLY_RECOVERY">
+  <element name="Unearthly Recovery" type="Archetype Feature" source="Voseren Homebrew" id="ID_HOMEBREW_VOS_ARCHETYPE_FEATURE_DIVINE_SOUL_UNEARTHLY_RECOVERY">
     <description>
       <p>
         <em>18th-level Divine Soul feature</em>
