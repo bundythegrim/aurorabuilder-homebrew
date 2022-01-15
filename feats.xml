@@ -48,4 +48,80 @@
       <grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_ATHLETICS" />
     </rules>
   </element>
+  <element name="Telekinetic" type="Feat" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_FEAT_TELEKINETIC">
+    <description>
+      <p>You learn to move things with your mind, granting you the following benefits:</p>
+      <ul>
+        <li>Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</li>
+        <li>You learn the Mage Hand cantrip. You can cast it without verbal or somatic components, and you can make the spectral hand invisible. If you already know this spell, its range increases by 30 feet when you cast it. Its spellcasting ability is the ability increased by this feat.</li>
+        <li>As a bonus action, you can try to telekinetically shove one creature you can see within 30 feet of you. When you do so, the target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + the ability modifier of the score increased by this feat) or be moved 5 feet toward or away from you. A creature can willingly fail this save.</li>
+      </ul>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_MAGE_HAND" />
+      </div>
+    </description>
+    <sheet>
+      <description>
+        You learn the mage hand cantrip. You can cast it without verbal or somatic components, and you can make the spectral hand invisible. If you already know this spell, its range increases by 30 feet when you cast it. Its spellcasting ability is {{tcoe:telekinetic:ability}}.
+        As a bonus action, you can try to telekinetically shove one creature you can see within 30 feet of you. When you do so, the target must succeed on a DC {{tcoe:telekinetic:shove dc}} Strength save or be moved 5 feet toward or away from you. A creature can willingly fail this save.</description>
+    </sheet>
+    <rules>
+      <!-- <select type="Ability Score Improvement" name="Ability Score Increase, Telekinetic" supports="ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_WISDOM|ID_PHB_FEAT_ASI_CHARISMA" /> -->
+      <grant type="Spell" id="ID_PHB_SPELL_MAGE_HAND" />
+      <stat name="tcoe:telekinetic:shove dc" value="8" />
+      <stat name="tcoe:telekinetic:shove dc" value="proficiency" />
+      <select type="Feat Feature" name="Ability Score Increase, Telekinetic" supports="ID_WOTC_TCOE_FEAT_FEATURE_TELEKINETIC_INTELLIGENCE|ID_WOTC_TCOE_FEAT_FEATURE_TELEKINETIC_WISDOM|ID_WOTC_TCOE_FEAT_FEATURE_TELEKINETIC_CHARISMA" />
+    </rules>
+  </element>
+  <element name="Intelligence" type="Feat Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_FEAT_FEATURE_TELEKINETIC_INTELLIGENCE">
+    <compendium display="false" />
+    <description>
+      <p>Increase your Intelligence by 1, to a maximum of 20.</p>
+      <div class="reference">
+        <div element="ID_WOTC_TCOE_FEAT_TELEKINETIC" />
+      </div>
+    </description>
+    <sheet display="false">
+      <description></description>
+    </sheet>
+    <rules>
+      <stat name="intelligence" value="1" alt="Telekinetic" />
+      <stat name="tcoe:telekinetic:ability" value="Intelligence" inline="true"/>
+      <stat name="tcoe:telekinetic:shove dc" value="intelligence:modifier" />
+    </rules>
+  </element>
+  <element name="Wisdom" type="Feat Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_FEAT_FEATURE_TELEKINETIC_WISDOM">
+    <compendium display="false" />
+    <description>
+      <p>Increase your Wisdom by 1, to a maximum of 20.</p>
+      <div class="reference">
+        <div element="ID_WOTC_TCOE_FEAT_TELEKINETIC" />
+      </div>
+    </description>
+    <sheet display="false">
+      <description></description>
+    </sheet>
+    <rules>
+      <stat name="wisdom" value="1" alt="Telekinetic" />
+      <stat name="tcoe:telekinetic:ability" value="Wisdom" inline="true"/>
+      <stat name="tcoe:telekinetic:shove dc" value="wisdom:modifier" />
+    </rules>
+  </element>
+  <element name="Charisma" type="Feat Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_FEAT_FEATURE_TELEKINETIC_CHARISMA">
+    <compendium display="false" />
+    <description>
+      <p>Increase your Charisma by 1, to a maximum of 20.</p>
+      <div class="reference">
+        <div element="ID_WOTC_TCOE_FEAT_TELEKINETIC" />
+      </div>
+    </description>
+    <sheet display="false">
+      <description></description>
+    </sheet>
+    <rules>
+      <stat name="charisma" value="1" alt="Telekinetic" />
+      <stat name="tcoe:telekinetic:ability" value="Charisma" inline="true"/>
+      <stat name="tcoe:telekinetic:shove dc" value="charisma:modifier" />
+    </rules>
+  </element>
 </elements>
