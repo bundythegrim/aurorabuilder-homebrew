@@ -167,4 +167,27 @@
       <p><strong><em>Healing Touch (1/Day).</em></strong> The celestial touches another creature. The target magically regains hit points equal to 2d8 + the spell’s level.</p>
     </description>
   </element>
+
+  <element name="Silvery Barbs" type="Spell" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SACOC_SPELL_SILVERY_BARBS">
+    <supports>Bard, Sorcerer, Wizard</supports>
+    <description>
+      <p>Reaction trigger: When a creature you can see within 60 feet of yourself succeeds on an attack roll, an ability check, or a saving throw</p>
+      <p class="indent">You magically distract the triggering creature and turn its momentary uncertainty into encouragement for another creature. The triggering creature must reroll the d20 and use the lower roll.</p>
+      <p class="indent">You can then choose a different creature you can see within range (you can choose yourself). The chosen creature has advantage on the next attack roll, ability check, or saving throw it makes within 1 minute. A creature can be empowered by only one use of this spell at a time.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 reaction</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
 </elements>
