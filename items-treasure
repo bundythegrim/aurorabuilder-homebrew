@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Treasure</name>
+    <update version="0.0.1">
+      <file name="items-treasure.xml" url="https://github.com/bundythegrim/aurorabuilder-homebrew/blob/main/items-treasure.xml" />
+    </update>
+  </info>
+
+  <element name="Small Bracelet" type="Item" source="The Hunter's Full Moon" id="ID_HOMEBREW_HFM_ITEM_ART_OBJECT_SMALL_BRACELET">
+    <description>
+      <p>Bracelet made with a stone depicting Sune's symbol.</p>
+    </description>
+    <setters>
+      <set name="keywords">art object</set>
+      <set name="category">Treasure</set>
+      <set name="cost" currency="gp">1</set>
+      <set name="stackable">true</set>
+      <set name="valuable">true</set>
+    </setters>
+  </element>
+</elements>
