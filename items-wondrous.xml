@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Wondrous Items</name>
+    <update version="0.0.1">
+      <file name="items-wondrous.xml" url="https://github.com/bundythegrim/aurorabuilder-homebrew/blob/main/items-wondrous.xml" />
+    </update>
+  </info>
+
+  <element name="Bloodwell Vial" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_BLOODWELL_VIAL_+1">
+    <description>
+      <p>To attune to this vial, you must place a few drops of your blood into it. The vial can't be opened while your attunement to it lasts. If your attunement to the vial ends, the contained blood turns to ash. You can use the vial as a spellcasting focus for your spells while wearing or holding it, and you gain a bonus to spell attack rolls and to the saving throw DCs of your sorcerer spells. The bonus is determined by the vial's rarity.</p>
+      <p class="indent">In addition, when you roll any Hit Dice to recover hit points while you are carrying the vial, you can regain 5 sorcery points. This property of the vial can't be used again until the next dawn.</p>
+    </description>
+    <setters>
+      <set name="keywords">sorcerer</set>
+      <set name="category">Wondrous Items</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type">Wondrous Item</set>
+      <set name="attunement">true</set>
+      <set name="rarity">Uncommon</set>
+    </setters>
+    <rules>
+      <stat name="spellcasting:attack" value="1" />
+    </rules>
+  </element>
+</elements>
